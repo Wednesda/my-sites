@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    .navbar{
+        background-color: white;
+    }
+    .btn{
+        background-color: blueviolet;
+        color: white;
+        transition: 0.5s;
+    }
+    .btn:hover{
+        background-color: rgb(16, 2, 68);
+        color: white;
+    }
+    .nav-link{
+        text-align: center;
+        color: black !important;
+    }
+    .nav-link:hover{
+        color: blueviolet !important;
+    }
+    .active{
+        color: blueviolet !important;
+
+    }
+    .body{
+        min-height: 100vh;
+        background-image: url("https://static.wixstatic.com/media/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png/v1/fill/w_1891,h_1200,al_br,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+    .body-2{
+      min-height: 80vh;
+      background-color: white;
+    }
+    .sec2 h4 {
+      color: blueviolet;
+    }
+
+    .body-2-1{
+      min-height: 50vh;
+      background-color: #16163F;
+      color: white;
+    }
+
+    .body-3{
+      min-height: 100vh;
+      background-color: white ;
+    }
+    .body-3-1{
+      color: blueviolet;
+    }
+    .img-1{
+      min-height: 100vh;
+      
+
+    }
+    .para{
+      color: #141448;
+    }
+
+    .body-4{
+      min-height: 65vh;
+      background-color: #9E3FFD;
+      color: white;
+    }
+    .carousel-1{
+      color: white !important;
+    }
+
+    
+    .body-5{
+      min-height: 30vh;
+      background-color: rgba(181, 181, 187, 0.522);
+    }
+    .custom-img {
+  max-height: 60px;
+  object-fit: cover;
+}
+
+    .body-6{
+      min-height: 80vh;
+      background-color: white;
+    }
+    .body-6-1{
+      color: #9E3FFD;
+    }
+    .form-control{
+      background-color: transparent;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      outline: none;
+      border-bottom-color: black;
+      border-radius: 0%;
+    }
+    .body-6-2{
+      min-height: 40vh;
+      background-color: white ;
+    }
+    .map{
+      min-height: 40vh;
+    }
+    footer{
+      min-height: 7vh;
+    }
+    footer a{
+      color: #9E3FFD;
+    }
+
+</style>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid ">
+    <a class="navbar-brand fw-bold fs-3" href="#">BizBud</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3 fs-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn mx-lg-4  mx-auto rounded-pill my-3 py-lg-3 px-lg-5" type="submit">Call now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- home -->
+<div class="body container-fluid  ">
+    <div class="container h-100 pt-5 ">
+        <div class="row h-100 ">
+            <div class="col-12 col-md-6  d-flex flex-column justify-content-start gap-3 px-">
+                <h1 class="display-1 fw-bold">The Power Of Good Advice</h1>
+                <p class="fs-4 pe-5">I'm a paragraph. Click here to add your own text and edit me.</p>
+                <button class="btn   rounded-pill py-lg-3  w-25" type="submit">Learn more</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services part-1 -->
+<div class="body-2 container-fluid ">
+  <div class="container sec2 h-50  d-flex flex-column justify-content-center align-items-center gap-3 ">
+    <h4 class="mt-5">Services</h4>
+    <h1 class="text-center">Taking Your Business to the Next Level</h1>
+  </div>
+  
+
+  <div class="container  h-50 ">
+    <div class="row h-100 g-5 mt-5">
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#9E3FFD" class="bi bi-check-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+</svg>
+        <h4>Business Plans</h4>
+        <p class="text-center w-75 ">I'm a paragraph. Click here to add your own text and edit me.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="blueviolet" class="bi bi-check2" viewBox="0 0 16 16">
+  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0"/>
+</svg>
+        <h4>Accounting services</h4>
+        <p class="text-center w-75">I'm a paragraph. Click here to add your own text and edit me.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" fill="#9E3FFD" class="bi bi-check-square" viewBox="0 0 16 16">
+  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+  <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
+</svg>
+        <h4>Finance optimization</h4>
+        <p class="text-center w-75  ">I'm a paragraph. Click here to add your own text and edit me.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- services part-2 -->
+<div class="body-2-1">
+  <div class="container h-50 d-flex justify-content-center align-items-center p-5 ">
+    <h1 class="hui">We’re Good with Numbers</h1>
+  </div>
+
+  <div class="container h-25 pb-5">
+    <div class="row h-100  g-5">
+      <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-1 fw-bold">15</h1>
+        <p class="fs-5">Years of Experience</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-1 fw-bold" >36</h1>
+        <p class="fs-5">Qualified Experts</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-1 fw-bold">120</h1>
+        <p class="fs-5">Clients Every Year</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-1 fw-bold">9</h1>
+        <p class="fs-5 mb-3">Intl. Partners</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about -->
+
+<div class="body-3 container-fluid p-0">
+  <div class="container-fluid p-0 h-100 g-4">
+    <div class="row h-100 g-4 ">
+      <!-- Text Column -->
+      <div class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center gap-3 text-center text-lg-start">
+        <h4 class="w-75 body-3-1 fs-5">ABOUT</h4>
+        <h3 class="fs-2 fw-bold w-75">
+          Our Experts Are the Finest
+        </h3>
+        <p class="w-75 para ">
+          I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+        </p>
+        <p class="w-75 para mb-3">
+          This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+        </p>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-12 col-md-6 col-lg-6  ">
+        <img class="img-fluid img-1 w-100 h-100 object-fit-cover" src="https://static.wixstatic.com/media/c837a6_38f0ee339302476e9f04ad2cab58a10e~mv2.png/v1/fill/w_935,h_1035,al_bl,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_38f0ee339302476e9f04ad2cab58a10e~mv2.png" alt="Expert Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial -->
+<div class="body-4 container-fluid d-flex flex-column justify-content-center align-items-center gap-5">
+  <div class="container h-50 d-flex flex-column justify-content-center align-items-center gap-5">
+    <h4 class="body-4-1 fs-5 ">TESTIMONIALS</h4>
+    <h1 class="fs-bold text-center">“I'm a testimonial. Click to edit me and add text”</h1>
+  </div>
+  <div class="container h-50 d-flex flex-column justify-content-center align-items-center ">
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-1 d-flex flex-column justify-content-center align-items-center pb-5">
+        <h4>Josh Phillips</h4>
+            <p>Company name</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-1 d-flex flex-column justify-content-center align-items-center pb-5">
+        <h4>Gabriella Spring</h4>
+            <p>Company name</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-1 d-flex flex-column justify-content-center align-items-center pb-5">
+        <h4>Louise Maxwell</h4>
+            <p>Company name</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+<!-- clients -->
+<div class="body-5 container-fluid d-flex flex-column justify-content-center align-items-center ">
+  <div class="container h-50  d-flex flex-column justify-content-center align-items-center mt-5">
+    <h4>OUR HAPPY CLIENTS</h4>
+  </div>
+  <div class="container h-50  py-5   ">
+    <div class="row justify-content-center gap-3 gap-lg-5">
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img class="img-fluid custom-img" src="https://png.pngtree.com/png-vector/20240104/ourmid/pngtree-name-isolated-tiled-letters-concept-and-theme-label-png-image_10944477.png" alt="">
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img class="img-fluid custom-img" src="https://help.pexels.com/hc/theming_assets/01JFF0H676SNGXZBWX7RR6A4MD" alt="">
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img class="img-fluid custom-img" src="https://png.pngtree.com/png-vector/20240104/ourmid/pngtree-name-isolated-tiled-letters-concept-and-theme-label-png-image_10944477.png" alt="">
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img class="img-fluid custom-img" src="https://help.pexels.com/hc/theming_assets/01JFF0H676SNGXZBWX7RR6A4MD" alt="">
+      </div>
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <img class="img-fluid custom-img" src="https://png.pngtree.com/png-vector/20240104/ourmid/pngtree-name-isolated-tiled-letters-concept-and-theme-label-png-image_10944477.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- contact -->
+<div class="body-6 container-fluid">
+  <div class="container h-100 ">
+    <div class="row h-100">
+      <div class="col-12 col-md-5 col-lg-6 col-md-2 text-center text-lg-start mt-5  g-4">
+        <h5 class="body-6-1">CONTACT</h5>
+        <h1>Let’s Work Together</h1>
+        <p class="mt-3">500 Terry Francine St. San Francisco, CA 94158
+          <br >
+          info@mysite.com
+          <br>
+          Tel: 123-456-7890</p>
+          <p class="d-flex  justify-content-center pt-2  gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg></p>
+      </div>
+      <!-- form -->
+      <div class="col-12 col-md-5 col-lg-6 my-5 d-flex flex-column justify-content-center align-items-center">
+        <form class="row ">
+          <div class="col-md-6  mb-3 text">
+            <label for="text" class="form-label">First Name*</label>
+            <input  type="text" class="form-control"   id="text">
+          </div>
+          <div class="col-md-6 text">
+            <label for="text" class="form-label">Last Name*</label>
+            <input type="text" class="form-control"  id="text">
+          </div>
+          <div class="col-12 mb-3 text">
+            <label for="inputEmail4" class="form-label">Email*</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-12 mt-3 text">
+            <label for="exampleFormControlTextarea1" class="form-label">Leave us a message...</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          
+          <div class="col-12 mt-3">
+            <button type="submit" class="btn btn-primary rounded-pill w-25 border-0 ">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- map -->
+<div class="body-6-2 container-fluid p-0 ">
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0862621417425!2d-122.41941608468104!3d37.77492977975962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581542b74d5b3%3A0x2c0d60f733b2e015!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1615567035261!5m2!1sen!2sus"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" ></iframe>
+</div>
+
+
+</body>
+<footer>
+  <div class="container-fluid h-100 w-50 text-center">
+    <p class="hnj">© 2035 by BizBud. Powered and secured by <a href="https://www.wix.com/?utm_campaign=vir_created_with">Wix</a></p>
+  </div>
+</footer>
+</html>
