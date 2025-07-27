@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+    <h4 id="result"></h4>
+    <div class="outer">
+
+        <div class="inner1">
+            <h4 class="title">PASSWORD GENERATOR</h4>
+            <h4 class="sub">Generate a secure password</h4>
+        </div>
+        
+        <div class="inner2">
+            <div class="password">
+                <h3 id="show"></h3>
+                <button id="paste" onclick="copy()"><i class="fa-slab fa-regular fa-copy"></i></button>
+            </div>
+            <button type="button" id="btn" onclick="lock()">Generate</button>
+            
+        </div>
+    
+        <div class="box">
+            <div class="box1">
+                <h3>Customize Password</h3>
+                <div class="lab">
+                    <label for="len" >Password Length :  </label>
+                    <p id="lnshow">0</p>
+                </div>
+                <input type="range" id="len" min="1" max="20">
+            </div>
+            <div class="box2">
+                <table>
+                    <tr>
+                        <td><input type="checkbox" id="uc">
+                            <label for="uc">Uppercase Letters</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="lc">
+                            <label for="lc">Lowercase Letters</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="nm">
+                            <label for="nm">Numbers</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="sb">
+                            <label for="sb">Symbols</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

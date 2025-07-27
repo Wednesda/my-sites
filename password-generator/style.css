@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer{
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+.inner1{
+    height: 27%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner2{
+    height: 27%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    
+}
+.password{
+    background-color: #0D1821;
+    height: 60px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #14C38F;
+    display: flex;
+    align-items: center;
+    
+}
+
+#show{
+    text-indent: 30px;
+    width: 93%;
+}
+.box{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    gap: 20px;
+    /* background-color: blueviolet; */
+    border: 0.5px solid #1F2021;
+    border-radius: 10px;
+}
+.box1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.box2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* additional */
+.title{
+    color: #14C38F;
+    font-weight: 500;
+}
+.sub{
+    font-size: 40px;
+    font-weight: 500;
+}
+#btn{
+    height: 30px;
+    width: 100px;
+    color: #14C38F;
+    background-color: #0D1821;
+    border: 1px solid #14C38F;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+#btn:hover{
+    background-color: black;
+    border: 1px solid #1F2021;
+    color: #14C38F;
+    cursor: pointer;
+}
+#len,#uc,#lc,#nm,#sb{
+    accent-color: #14C38F;
+}
+.box2 td{
+    font-size: larger;
+}
+.lab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#len{
+    width: 80%;
+    height: 5px;
+    
+}
+#result{
+    color: #14C38F;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+
+    
+}
+#paste{
+    background-color: transparent;
+    border: none;
+    color: wheat;
+    font-size: 20px;
+    transition: 0.5s;
+    
+}
+#paste:hover{
+    color: #14C38F;
+}
